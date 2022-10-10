@@ -19,6 +19,8 @@ const App: Component = () => {
         >
           Learn Solid
         </a>
+        <i class="i-uil-briefcase sm:i-uil-lottiefiles-alt"></i>
+        <button class="i-uil-sync-slash cursor-pointer"></button>
       </header>
     </div>
   );
