@@ -12,6 +12,9 @@ export default defineConfig({
         presetMini(),
         presetIcons({ /* options */ }),
       ],
+      shortcuts: {
+        'container': 'mx-auto max-w-5xl px-4 sm:px-6 lg:px-8',
+      }
     }),
   ],
   server: {
