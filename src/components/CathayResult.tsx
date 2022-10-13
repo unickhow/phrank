@@ -9,11 +9,11 @@ export default (props: { form: Form }) => {
   const rowClass = 'flex justify-between items-center p-4 border-b border-gray-200';
   const rowTitle = 'font-bold text-base text-gray-600 flex-shrink-0'
   const rowContent = 'text-gray-600 text-right';
-  const footerSecondaryButton = 'flex-1 bg-transparent border-0 text-base text-green-600 font-bold cursor-pointer'
-  const footerFinishButton = 'w-full bg-green-600 rounded border-none p-2 text-white text-base font-bold cursor-pointer'
+  const footerSecondaryButton = 'btn flex-1 text-base text-green-600 font-bold'
+  const footerFinishButton = 'btn w-full bg-green-600 p-2 text-white text-base font-bold'
 
   return (
-    <div class="p-4 rounded-lg w-full max-w-390px relative overflow-hidden shadow">
+    <div id="result" class="p-4 rounded-lg w-full max-w-390px relative overflow-hidden bg-white">
       <div class="screen-stats absolute z-5 top-0 left-0 w-full p-3 text-white flex items-center">
         <span class="text-sm font-bold mr-2">{ props.form.nowTime }</span>
         <i class="i-uil-location-arrow-alt w-4 h-4 mr-auto translate rotate-45"></i>

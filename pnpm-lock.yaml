@@ -2,9 +2,12 @@ lockfileVersion: 5.4
 
 specifiers:
   '@iconify-json/uil': ^1.1.2
+  '@types/file-saver': ^2.0.5
   '@unocss/preset-icons': ^0.45.29
   '@unocss/preset-mini': ^0.45.29
   '@unocss/transformer-directives': ^0.45.29
+  file-saver: ^2.0.5
+  html-to-image: ^1.10.8
   solid-js: ^1.5.1
   typescript: ^4.8.2
   unocss: ^0.45.29
@@ -12,6 +15,9 @@ specifiers:
   vite-plugin-solid: ^2.3.0
 
 dependencies:
+  '@types/file-saver': 2.0.5
+  file-saver: 2.0.5
+  html-to-image: 1.10.8
   solid-js: 1.5.1
 
 devDependencies:
@@ -446,6 +452,10 @@ packages:
       estree-walker: 2.0.2
       picomatch: 2.3.1
     dev: true
+
+  /@types/file-saver/2.0.5:
+    resolution: {integrity: sha512-zv9kNf3keYegP5oThGLaPk8E081DFDuwfqjtiTzm6PoxChdJ1raSuADf2YGCVIyrSynLrgc8JWv296s7Q7pQSQ==}
+    dev: false
 
   /@unocss/astro/0.45.29_vite@3.0.9:
     resolution: {integrity: sha512-osmUD8Dy0uPdA2BI6xZIUzOf0jHWySjDbdHNLceLVNnwxhl2znwqaSbSe/hUBypneGIX3wrHPUs9pwKFMLwPXw==}
@@ -1027,6 +1037,10 @@ packages:
       reusify: 1.0.4
     dev: true
 
+  /file-saver/2.0.5:
+    resolution: {integrity: sha512-P9bmyZ3h/PRG+Nzga+rbdI4OEpNDzAVyy74uVO9ATgzLK6VtAsYybF/+TOCvrc0MO793d6+42lLyZTw7/ArVzA==}
+    dev: false
+
   /fill-range/7.0.1:
     resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==}
     engines: {node: '>=8'}
@@ -1098,6 +1112,10 @@ packages:
   /html-entities/2.3.2:
     resolution: {integrity: sha512-c3Ab/url5ksaT0WyleslpBEthOzWhrjQbg75y7XUsfSzi3Dgzt0l8w5e7DylRn15MTlMMD58dTfzddNS2kcAjQ==}
     dev: true
+
+  /html-to-image/1.10.8:
+    resolution: {integrity: sha512-t+JyFJwKDCp4ZwBp4iC/wqw0meQDDc77Qs8OFl5P7RGlIP3LQMvwpD7VXxqQfC7/TfC+GKYlFP6WDYfXTmXHfw==}
+    dev: false
 
   /human-signals/2.1.0:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}

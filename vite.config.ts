@@ -14,6 +14,7 @@ export default defineConfig({
       ],
       shortcuts: {
         'container': 'mx-auto max-w-5xl px-4 sm:px-6 lg:px-8',
+        'btn': 'border-none bg-transparent border-0 rounded cursor-pointer'
       }
     }),
   ],

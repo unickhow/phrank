@@ -20,6 +20,9 @@
     "vite-plugin-solid": "^2.3.0"
   },
   "dependencies": {
+    "@types/file-saver": "^2.0.5",
+    "file-saver": "^2.0.5",
+    "html-to-image": "^1.10.8",
     "solid-js": "^1.5.1"
   }
 }

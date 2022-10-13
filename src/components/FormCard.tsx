@@ -2,6 +2,8 @@ import { createSignal } from "solid-js";
 import CathayResult from "./CathayResult";
 import './form-card.css';
 import { Form } from "../types/form";
+import { toPng } from "html-to-image";
+import { saveAs } from "file-saver";
 
 export default () => {
   const [form, setForm] = createSignal<Form>({
@@ -24,6 +26,13 @@ export default () => {
         ...current,
         [field]: value
       }
+    });
+  }
+
+  function handleImageSave() {
+    const node: HTMLElement = document.getElementById('result')!;
+    toPng(node).then(dataUrl => {
+      saveAs(dataUrl, 'cathay-mock.png');
     });
   }
 
@@ -79,6 +88,12 @@ export default () => {
               value={form().note}
               onInput={e => handleFieldChange('note', (e.target as HTMLInputElement).value)} />
         </div>
+        <button
+          class="btn bg-green-500 px-3 py-2 mt-12 text-xs transition hover:bg-green-600 text-white flex items-center"
+          onClick={handleImageSave}>
+          <i class="i-uil-image-download mr-2"></i>
+          <span>儲存為圖片</span>
+        </button>
       </div>
 
       <CathayResult form={ form() } />
