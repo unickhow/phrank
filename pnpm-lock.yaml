@@ -4,6 +4,7 @@ specifiers:
   '@iconify-json/uil': ^1.1.2
   '@unocss/preset-icons': ^0.45.29
   '@unocss/preset-mini': ^0.45.29
+  '@unocss/transformer-directives': ^0.45.29
   solid-js: ^1.5.1
   typescript: ^4.8.2
   unocss: ^0.45.29
@@ -17,6 +18,7 @@ devDependencies:
   '@iconify-json/uil': 1.1.2
   '@unocss/preset-icons': 0.45.29
   '@unocss/preset-mini': 0.45.29
+  '@unocss/transformer-directives': 0.45.29
   typescript: 4.8.2
   unocss: 0.45.29_vite@3.0.9
   vite: 3.0.9

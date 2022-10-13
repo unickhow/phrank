@@ -1,0 +1,11 @@
+.form-card__fields .form-card__fields__field {
+  @apply flex flex-col mb-4 mr-12 text-sm;
+}
+
+.form-card__fields .form-card__fields__field label {
+  @apply mb-1;
+}
+
+.form-card__fields .form-card__fields__field input {
+  @apply py-1 px-2 rounded border-1 border-gray-300;
+}
