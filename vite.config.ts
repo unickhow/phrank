@@ -5,6 +5,7 @@ import presetIcons from '@unocss/preset-icons'
 import presetMini from '@unocss/preset-mini'
 
 export default defineConfig({
+  base: '/phrank/',
   plugins: [
     solidPlugin(),
     Unocss({
@@ -18,9 +19,6 @@ export default defineConfig({
       }
     }),
   ],
-  server: {
-    port: 3000,
-  },
   build: {
     target: 'esnext',
   },
